@@ -1,0 +1,58 @@
+/* Place all of your CSS Code in this file */
+
+/********************************************************************************* 
+*
+* WEB222 – Assignment #4a
+*
+* I declare that this assignment is my own work in accordance with Seneca 
+* Academic Policy. No part of this assignment has been copied manually or 
+* electronically from any other source (including web sites) or distributed to 
+* other students. 
+* 
+* Name: Abiodun Oke__ Student ID: 117180166_ Date: ____ 
+* 
+********************************************************************************/
+
+body{
+	color: #461517;
+}
+nav{
+	background-color: #5f5f5f;
+}
+footer{
+	background-color: #5f5f5f;
+}
+header{
+	border-bottom:4px solid #4caf50;
+	background-color: #5f5f5f;
+}
+.app-title{
+	font-size: 30px;
+	font-family: 'Concert One';
+	color: #4caf50;
+}
+.main-table-container{
+	max-height:320px;
+	overflow-y: scroll;
+	padding: 5px;
+	margin-bottom: 0;
+}
+.main-table-top tbody tr th{
+	color: #e33110;
+	font-size: 20px;
+	font-family: 'Roboto';
+	padding: 8px;
+	background-color: #4caf50;
+	color: white;
+	font-family: arial;
+}
+.main-table tbody td{
+	padding: 15px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+	vertical-align: middle;
+}
+.main-table tbody p span{
+	background-color: #ffff00;
+	font-weight: bold;
+}

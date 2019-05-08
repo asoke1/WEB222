@@ -1,0 +1,210 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #353434;
+    overflow-x: hidden;
+    height: 100%;
+    position: relative;
+}
+
+.main-container {
+    max-width: 1200px;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 30px;
+    display: block;
+}
+
+/* HEADER DESIGN  */
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #053169;
+    padding: 3px;
+    margin-bottom: 2%;
+    border-bottom: 3px solid #dc4021;
+}
+
+    .header .logo, .header .text {
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 2px;
+    }
+
+    .header .text {
+        font-family: arial;
+        font-weight: bold;
+        font-size: 28px;
+        color: #dc4021;
+    }
+
+/*END HEADER DESIGN*/
+
+/* NAVIGATION DESIGN */
+.navigation {
+    width: 200px;
+    height: auto;
+    background-color: #fff;
+    padding: 2px;
+    float: left;
+    margin-left: 1%;
+    border-radius: 2px;
+    margin-bottom: 2%;
+}
+
+    .navigation ul {
+        list-style-type: none;
+        padding: 2px;
+    }
+
+        .navigation ul li a {
+            text-decoration: none;
+            display: block;
+            position: relative;
+            padding: 5px 10px;
+            margin-bottom: 2px;
+            border: 1px solid #ddd;
+            font-family: arial;
+            color: black;
+        }
+
+            .navigation ul li a:hover {
+                background-color: #645e5e;
+                color: white;
+            }
+/* END NAVIGATION DESIGN */
+
+/* CONTENT DESIGN */
+.content {
+    background-color: #fff;
+    min-height: 100%;
+    padding: 10px;
+    font-size: 16px;
+    width: 600px;
+    float: left;
+    margin-left: 0.5%;
+    margin-bottom: 4%;
+    border-radius: 2px;
+}
+
+    .content h2 {
+        padding: 0;
+        margin: 0;
+        font-family: arial;
+    }
+
+    .content p {
+        text-align: justify;
+        font-size: 16px;
+        font-family: arial;
+    }
+
+    .content form {
+        width: 100%;
+        line-height: 25px;
+    }
+
+        .content form label {
+            color: #000;
+            font-size: 16px;
+            font-family: arial;
+        }
+
+        .content form input, #province {
+            width: 400px;
+            height: 30px;
+            padding: 6px 14px;
+            font-size: 14px;
+            line-height: 1.4285;
+            box-shadow: inset 0 1px 1px rgba(0,0,0, .075);
+            outline: 0;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            border-radius: 4px;
+        }
+
+        .content form button {
+            width: 100px;
+            height: 30px;
+            outline: 0;
+            border: 0;
+            background-color: #053169;
+            color: white;
+            padding: 3px;
+            margin-top: 1.5%;
+            font-size: 18px;
+            border-radius: 3px;
+        }
+
+            .content form button[type=reset] {
+                width: 100px;
+                height: 30px;
+                outline: 0;
+                border: 0;
+                background-color: red;
+                color: white;
+                padding: 3px;
+                margin-top: 1.5%;
+                font-size: 18px;
+                border-radius: 3px;
+            }
+
+            .content form button:hover {
+                background-color: #03234b;
+            }
+
+input, select, input[type='hidden'] {
+    display: block;
+}
+/* END CONTENT */
+
+/* ASIDE (RIGHT PANEL) */
+aside {
+    background-color: #fff;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    float: left;
+    margin-left: 0.5%;
+    border-radius: 2px;
+    margin-bottom: 5%;
+}
+
+    aside .side-text {
+        font-size: 16px;
+        font-family: arial;
+        text-align: center;
+    }
+
+    aside img {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+/*END ASIDE */
+
+/* FOOTER */
+footer {
+    height: 30px;
+    width: 100%;
+    background: #fff;
+    color: #dc4021;
+    bottom: 0;
+    padding: 10px;
+    font-weight: bold;
+    position: absolute;
+}
+/* END FOOTER */
+
+.error {
+    color: red;
+    font-size: 10px;
+    font-family: arial;
+}
+
+.clear {
+    clear: both;
+}
